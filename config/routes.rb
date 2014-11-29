@@ -1,8 +1,8 @@
 TwcApp::Application.routes.draw do
-  resources :transfers
-
-
   resources :users
+
+
+  resources :transfers
 
 
   # The priority is based upon order of creation:

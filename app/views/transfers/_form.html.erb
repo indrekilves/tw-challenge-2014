@@ -1,44 +1,41 @@
-<%= form_for @transfer, :html => { :class => 'form-horizontal' } do |f| %>
-  <div class="control-group">
-    <%= f.label :amount, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :amount, :class => 'text_field' %>
-    </div>
-  </div>
-  <div class="control-group">
-    <%= f.label :currency, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :currency, :class => 'text_field' %>
-    </div>
-  </div>
-  <div class="control-group">
-    <%= f.label :uniqueKey, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :uniqueKey, :class => 'text_field' %>
-    </div>
-  </div>
-  <div class="control-group">
-    <%= f.label :status, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :status, :class => 'text_field' %>
-    </div>
-  </div>
-  <div class="control-group">
-    <%= f.label :sender_id, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.number_field :sender_id, :class => 'number_field' %>
-    </div>
-  </div>
-  <div class="control-group">
-    <%= f.label :receiver_id, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.number_field :receiver_id, :class => 'number_field' %>
-    </div>
-  </div>
+<%= form_for(@transfer) do |f| %>
+  <% if @transfer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@transfer.errors.count, "error") %> prohibited this transfer from being saved:</h2>
 
-  <div class="form-actions">
-    <%= f.submit nil, :class => 'btn btn-primary' %>
-    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                transfers_path, :class => 'btn' %>
+      <ul>
+      <% @transfer.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :amount %><br />
+    <%= f.text_field :amount %>
+  </div>
+  <div class="field">
+    <%= f.label :currency %><br />
+    <%= f.text_field :currency %>
+  </div>
+  <div class="field">
+    <%= f.label :uniqueKey %><br />
+    <%= f.text_field :uniqueKey %>
+  </div>
+  <div class="field">
+    <%= f.label :status %><br />
+    <%= f.text_field :status %>
+  </div>
+  <div class="field">
+    <%= f.label :sender %><br />
+    <%= f.text_field :sender %>
+  </div>
+  <div class="field">
+    <%= f.label :receiver %><br />
+    <%= f.text_field :receiver %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
   </div>
 <% end %>

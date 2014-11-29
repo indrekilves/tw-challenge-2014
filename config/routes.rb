@@ -1,4 +1,12 @@
 TwcApp::Application.routes.draw do
+  resources :transfers
+
+
+  resources :reciever_indices
+
+  post '/recieverIndex', to: redirect('/reciever_indices')
+  get '/recieverIndex', to: redirect('/reciever_indices')
+
   get "receive/index"
 
   get "receive/status"
@@ -6,9 +14,6 @@ TwcApp::Application.routes.draw do
   get "receive/login"
 
   resources :users
-
-
-  resources :transfers
 
 
   # The priority is based upon order of creation:
@@ -69,4 +74,5 @@ TwcApp::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
+  #  get '/stories/:name', to: redirect('/posts/%{name}')
 end

@@ -1,0 +1,31 @@
+<h1>Listing reciever_indices</h1>
+
+<table>
+  <tr>
+    <th>Username</th>
+    <th>Password</th>
+    <th>Recievername</th>
+    <th>Iban</th>
+    <th>Bankcode</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @reciever_indices.each do |reciever_index| %>
+  <tr>
+    <td><%= reciever_index.username %></td>
+    <td><%= reciever_index.password %></td>
+    <td><%= reciever_index.recievername %></td>
+    <td><%= reciever_index.iban %></td>
+    <td><%= reciever_index.bankCode %></td>
+    <td><%= link_to 'Show', reciever_index %></td>
+    <td><%= link_to 'Edit', edit_reciever_index_path(reciever_index) %></td>
+    <td><%= link_to 'Destroy', reciever_index, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Reciever index', new_reciever_index_path %>

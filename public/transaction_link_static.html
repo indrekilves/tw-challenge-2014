@@ -63,7 +63,6 @@
     </div>
 </header>
 <div id="content" class="b-page">
-
     <div class="b-hero ">
         <form class="form-horizontal">
             <div class="l-container">
@@ -90,14 +89,34 @@
                 <br>
                 <div class="l-container" style="width: 800px" >
                     <p class="b-hero__subtitle" style="text-align: center">
-                        We generated a secure transaction ID for you. Please forward this ID to the receipient or send it as e-mail or SMS.
+                        We generated a secure transfer ID for you. Please forward this ID to the receipient or send it as e-mail or SMS.
                     </p>
                 </div>
+
                 <div class="l-container" style="width: 400px">
                     <input class="b-input" id="j_username" name="j_username" type="text" placeholder="Receiver's email address" value=""><br><br>
                     <input class="b-input js-password" id="j_password" name="j_password" type="text" placeholder="Receiver's mobile number"><br><br>
-                    <input type="submit" name="trylogin" class="b-button m-large m-full-width" value="Send transaction ID" id="trylogin">
+                    <button type="button" class="b-button m-large m-full-width" data-toggle="modal" data-target="#myModal">
+                        Send transaction ID
+                    </button>
 
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>-->
+                                    <!--<h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
+                                </div>
+                                <div class="modal-body" style="text-align: center">
+                                    Trasnfer ID is sent
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -121,6 +140,7 @@
     </p>
     </div>
 </footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -26,6 +26,7 @@ class ReceiveController < ApplicationController
     testHost = 'localhost:3000/mineperseurl/'
     realHost = 'http://challenge.transferwise.com/'
     fullUrl = realHost + "?teamname=bootstrap&data=" + jsonEsc
+    #render fullUrl
     #fullUrl = Rack::Utils.escape(fullUrl)
 
 

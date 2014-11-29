@@ -1,5 +1,6 @@
 #sending-form {
-    margin: 0 2em;
+    margin: 0 auto;
+    max-width: 700px;
 }
 
 #b-calculator__input-user,
@@ -30,8 +31,21 @@
 
 .b-calculator_user_unknown a {
     color: white;
-    padding: 16px 0 16px 16px;
+    padding: 16px;
     display: block;
+    font-size: 90%;
+    font-weight: normal;
+}
+
+.b-button.disabled, .b-button.disabled:hover {
+    color: #666666;
+    background-color: #dddddd;
+    border-bottom-color:  #aaaaaa;
+}
+
+.b-calculator_user_unknown a:hover {
+    text-decoration: none;
+    border-bottom-color:  #666666;
 }
 
 .container {
@@ -283,66 +297,6 @@ button {
     background: none;
     border: 0;
     cursor: pointer;
-}
-
-@font-face {
-    font-family: "Avenir Next W01_n6";
-    src: url('../AvenirNext/12d643f2-3899-49d5-a85b-ff430f5fad15-f3004cef391ee25de7a11ef7c899e6b4.eot?#iefix') format("eot");
-}
-
-@font-face {
-    font-family: "Avenir Next W01";
-    src: url('../AvenirNext/12d643f2-3899-49d5-a85b-ff430f5fad15-f3004cef391ee25de7a11ef7c899e6b4.eot?#iefix');
-    src: url('../AvenirNext/12d643f2-3899-49d5-a85b-ff430f5fad15-f3004cef391ee25de7a11ef7c899e6b4.eot?#iefix') format("eot"), url('../AvenirNext/91b50bbb-9aa1-4d54-9159-ec6f19d14a7c-2bc758fd09b95083e91b002849fa3201.woff') format("woff"), url('../AvenirNext/a0f4c2f9-8a42-4786-ad00-fce42b57b148-637b41435ec308d2f4abb610c4643bdd.ttf') format("truetype"), url('../AvenirNext/99affa9a-a5e9-4559-bd07-20cf0071852d-9d4d3a4ac8e52ee2a45d826b1b506140.svg#99affa9a-a5e9-4559-bd07-20cf0071852d') format("svg");
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Avenir Next W01_n5";
-    src: url('../AvenirNext/1a7c9181-cd24-4943-a9d9-d033189524e0-8019a63b937404120662dcd8c7788c95.eot?#iefix') format("eot");
-}
-
-@font-face {
-    font-family: "Avenir Next W01";
-    src: url('../AvenirNext/1a7c9181-cd24-4943-a9d9-d033189524e0-8019a63b937404120662dcd8c7788c95.eot?#iefix');
-    src: url('../AvenirNext/1a7c9181-cd24-4943-a9d9-d033189524e0-8019a63b937404120662dcd8c7788c95.eot?#iefix') format("eot"), url('../AvenirNext/f26faddb-86cc-4477-a253-1e1287684336-ee23d340b6524413c5dd1120251ad0cb.woff') format("woff"), url('../AvenirNext/63a74598-733c-4d0c-bd91-b01bffcd6e69-6a05e1751542104cf6d65906ebbf12a6.ttf') format("truetype"), url('../AvenirNext/a89d6ad1-a04f-4a8f-b140-e55478dbea80-d04746e7910be0390ec2a78b6aa7c080.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80') format("svg");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Avenir Next W01_n4";
-    src: url('../AvenirNext/e9167238-3b3f-4813-a04a-a384394eed42-3b3a9958e7d6135192806c72cc659ff5.eot?#iefix') format("eot");
-}
-
-@font-face {
-    font-family: "Avenir Next W01";
-    src: url('../AvenirNext/e9167238-3b3f-4813-a04a-a384394eed42-3b3a9958e7d6135192806c72cc659ff5.eot?#iefix');
-    src: url('../AvenirNext/e9167238-3b3f-4813-a04a-a384394eed42-3b3a9958e7d6135192806c72cc659ff5.eot?#iefix') format("eot"), url('../AvenirNext/1e9892c0-6927-4412-9874-1b82801ba47a-fe2ff02769173fa2c393a7b60f8c0f0c.woff') format("woff"), url('../AvenirNext/46cf1067-688d-4aab-b0f7-bd942af6efd8-ff3ba8cbab111d8905c5cf3764dafabf.ttf') format("truetype"), url('../AvenirNext/52a192b1-bea5-4b48-879f-107f009b666f-2f2efcb9258077c263a463585cca8807.svg#52a192b1-bea5-4b48-879f-107f009b666f') format("svg");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sharp Sans Frontieres';
-    src: url('../SharpSans/SharpSansFrontieres-Light-ef09c857991a81b123ca98eca7d34060.eot');
-    src: local('☺'), url('../SharpSans/SharpSansFrontieres-Light-f67c16952b03a72b7f189cc5b838629b.woff') format('woff'), url('../SharpSans/SharpSansFrontieres-Light-81cdeaeb9229a3ea0fa1ee9521148159.svg#font') format('svg');
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: 'Sharp Sans Frontieres';
-    src: url('../SharpSans/SharpSansFrontieres-Medium-2c7adee4353699ec6c6b3eeb8322efd3.eot');
-    src: local('☺'), url('../SharpSans/SharpSansFrontieres-Medium-5ea4a3074e05baadf43a728f75d9128e.woff') format('woff'), url('../SharpSans/SharpSansFrontieres-Medium-61241774afb5cfd2c68fcd367ecf8326.svg#font') format('svg');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Sharp Sans Frontieres';
-    src: url('../SharpSans/SharpSansFrontieres-Bold-cd20e31e5e3cf5a69976e8fbd5978a72.eot');
-    src: local('☺'), url('../SharpSans/SharpSansFrontieres-Bold-b4d96582a2712a5bae7f9906f18eee46.woff') format('woff'), url('../SharpSans/SharpSansFrontieres-Bold-d19056233eed38096d17cfc15f32e7fc.svg#font') format('svg');
-    font-weight: 600;
 }
 
 body {
@@ -7262,66 +7216,6 @@ button {
     background: none;
     border: 0;
     cursor: pointer;
-}
-
-@font-face {
-    font-family: "Avenir Next W01_n6";
-    src: url('../AvenirNext/12d643f2-3899-49d5-a85b-ff430f5fad15-f3004cef391ee25de7a11ef7c899e6b4.eot?#iefix') format("eot");
-}
-
-@font-face {
-    font-family: "Avenir Next W01";
-    src: url('../AvenirNext/12d643f2-3899-49d5-a85b-ff430f5fad15-f3004cef391ee25de7a11ef7c899e6b4.eot?#iefix');
-    src: url('../AvenirNext/12d643f2-3899-49d5-a85b-ff430f5fad15-f3004cef391ee25de7a11ef7c899e6b4.eot?#iefix') format("eot"), url('../AvenirNext/91b50bbb-9aa1-4d54-9159-ec6f19d14a7c-2bc758fd09b95083e91b002849fa3201.woff') format("woff"), url('../AvenirNext/a0f4c2f9-8a42-4786-ad00-fce42b57b148-637b41435ec308d2f4abb610c4643bdd.ttf') format("truetype"), url('../AvenirNext/99affa9a-a5e9-4559-bd07-20cf0071852d-9d4d3a4ac8e52ee2a45d826b1b506140.svg#99affa9a-a5e9-4559-bd07-20cf0071852d') format("svg");
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Avenir Next W01_n5";
-    src: url('../AvenirNext/1a7c9181-cd24-4943-a9d9-d033189524e0-8019a63b937404120662dcd8c7788c95.eot?#iefix') format("eot");
-}
-
-@font-face {
-    font-family: "Avenir Next W01";
-    src: url('../AvenirNext/1a7c9181-cd24-4943-a9d9-d033189524e0-8019a63b937404120662dcd8c7788c95.eot?#iefix');
-    src: url('../AvenirNext/1a7c9181-cd24-4943-a9d9-d033189524e0-8019a63b937404120662dcd8c7788c95.eot?#iefix') format("eot"), url('../AvenirNext/f26faddb-86cc-4477-a253-1e1287684336-ee23d340b6524413c5dd1120251ad0cb.woff') format("woff"), url('../AvenirNext/63a74598-733c-4d0c-bd91-b01bffcd6e69-6a05e1751542104cf6d65906ebbf12a6.ttf') format("truetype"), url('../AvenirNext/a89d6ad1-a04f-4a8f-b140-e55478dbea80-d04746e7910be0390ec2a78b6aa7c080.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80') format("svg");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Avenir Next W01_n4";
-    src: url('../AvenirNext/e9167238-3b3f-4813-a04a-a384394eed42-3b3a9958e7d6135192806c72cc659ff5.eot?#iefix') format("eot");
-}
-
-@font-face {
-    font-family: "Avenir Next W01";
-    src: url('../AvenirNext/e9167238-3b3f-4813-a04a-a384394eed42-3b3a9958e7d6135192806c72cc659ff5.eot?#iefix');
-    src: url('../AvenirNext/e9167238-3b3f-4813-a04a-a384394eed42-3b3a9958e7d6135192806c72cc659ff5.eot?#iefix') format("eot"), url('../AvenirNext/1e9892c0-6927-4412-9874-1b82801ba47a-fe2ff02769173fa2c393a7b60f8c0f0c.woff') format("woff"), url('../AvenirNext/46cf1067-688d-4aab-b0f7-bd942af6efd8-ff3ba8cbab111d8905c5cf3764dafabf.ttf') format("truetype"), url('../AvenirNext/52a192b1-bea5-4b48-879f-107f009b666f-2f2efcb9258077c263a463585cca8807.svg#52a192b1-bea5-4b48-879f-107f009b666f') format("svg");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sharp Sans Frontieres';
-    src: url('../SharpSans/SharpSansFrontieres-Light-ef09c857991a81b123ca98eca7d34060.eot');
-    src: local('☺'), url('../SharpSans/SharpSansFrontieres-Light-f67c16952b03a72b7f189cc5b838629b.woff') format('woff'), url('../SharpSans/SharpSansFrontieres-Light-81cdeaeb9229a3ea0fa1ee9521148159.svg#font') format('svg');
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: 'Sharp Sans Frontieres';
-    src: url('../SharpSans/SharpSansFrontieres-Medium-2c7adee4353699ec6c6b3eeb8322efd3.eot');
-    src: local('☺'), url('../SharpSans/SharpSansFrontieres-Medium-5ea4a3074e05baadf43a728f75d9128e.woff') format('woff'), url('../SharpSans/SharpSansFrontieres-Medium-61241774afb5cfd2c68fcd367ecf8326.svg#font') format('svg');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Sharp Sans Frontieres';
-    src: url('../SharpSans/SharpSansFrontieres-Bold-cd20e31e5e3cf5a69976e8fbd5978a72.eot');
-    src: local('☺'), url('../SharpSans/SharpSansFrontieres-Bold-b4d96582a2712a5bae7f9906f18eee46.woff') format('woff'), url('../SharpSans/SharpSansFrontieres-Bold-d19056233eed38096d17cfc15f32e7fc.svg#font') format('svg');
-    font-weight: 600;
 }
 
 body {

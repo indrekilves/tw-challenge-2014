@@ -148,13 +148,13 @@
             </div>
             <div id="b-cal" class="b-calculator__input-container ">
 
-                <input class="b-button m-full-width event_calc_make_a_transfer" type="submit" value="Send money">
+                <input id="b-cal-send-money" class="b-button m-full-width event_calc_make_a_transfer disabled"  type="submit" value="Start the transfer" disabled="disabled">
             </div>
             <div class="b-calculator__input-container b-calculator_user_unknown">
-                <input type="checkbox" value="1" name="unknownTarget" id="unknownTarget" class="l-hide"/>
+
                 <a href="sender2.html">
-                    <label id="receiverUnknown" for="unknownTarget">I don't know the Recipient's TransferWise
-                        username</label>
+                   I don't know the Recipient's TransferWise
+                        username
                 </a>
             </div>
 
@@ -182,9 +182,21 @@
         </p>
     </div>
 </footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script type="text/javascript">
-
+    $(function(){
+        $('#b-calculator__input-user').keyup(function(){
+            var btn = $("#b-cal-send-money");
+            if($(this).val().length){
+                btn.removeClass('disabled');
+                btn.removeAttr('disabled');
+            } else {
+                btn.addClass('disabled');
+                btn.attr('disabled','disabled');
+            }
+        });
+    });
 </script>
 </body>
 </html>

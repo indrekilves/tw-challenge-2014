@@ -2,6 +2,9 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <style type="text/css">
+        form-horizontal
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -77,88 +80,48 @@
 </header>
 <div id="content" class="b-page container">
     <div class="b-hero ">
-        <form id="sending-form">
-            <div class="form-group b-calculator__input-container ">
-                <label class="b-calculator__input-label" for="b-calculator__input-amount-send">You send</label>
-                <input name="sourceValue" class="b-calculator__input-amount" id="b-calculator__input-amount-send"
-                       value="1000">
+            <h2 class="b-hero__title">
+                Please transfer the money to Transferwise account</h2>
+            <p class="center">After you have transfered the money we will generate a special link you can send to the recipient.</p>
+            <table class="table">
+                <tr>
+                    <th>To:</th>
+                    <td>TransferWise Ltd</td>
+                </tr>
+                <tr>
+                    <th>Account nr:</th>
+                    <td>12314561315</td>
+                </tr>
+                <tr>
+                    <th>Bank name:</th>
+                    <td>Barclays</td>
+                </tr>
+                <tr>
+                    <th>References:</th>
+                    <td>P12453252</td>
+                </tr>
+                <tr>
+                    <th>Amount:</th>
+                    <td>120 EUR</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="b-calculator__input-container ">
+                            <a class="b-button m-full-width event_calc_make_a_transfer" type="submit"
+                                   href="sender3.html">
+                                I have transfered the money
+                        </a>
+                            </div>
+                        <div class="cancel">
 
-                <div class="b-calculator__input-currency">
-                    <select name="sourceCurrencyId" class="b-calculator__input-currency-select sourceCurrency">
-                        <option value="1">EUR</option>
-                        <option value="2">GBP</option>
-                        <option value="3">USD</option>
-                        <option value="4">PLN</option>
-                        <option value="5">CHF</option>
-                        <option value="6">NOK</option>
-                        <option value="7">SEK</option>
-                        <option value="8">DKK</option>
-                        <option value="14">HUF</option>
-                        <option value="15">GEL</option>
-                        <option value="30">RON</option>
-                        <option value="31">TRY</option>
-                        <option value="40">CZK</option>
-                        <option value="41">BGN</option>
-                        <option value="Other" class="other-cur-option">Other</option>
-                    </select>
+                            <a class=" " href="senderIndex.html">
+                                Cancel transaction
+                            </a>
+                        </div>
+                    </td>
 
-                    <div class="b-calculator__input-currency-current js-source-currency-label">GBP</div>
-                </div>
-            </div>
-            <div class="b-calculator__input-container ">
-                <label class="b-calculator__input-label" for="b-calculator__input-amount-receive">They receive</label>
-                <input type="checkbox" value="1" name="isFixTypeTarget" id="isFixTypeTarget" class="l-hide">
-                <input name="targetValue" class="b-calculator__input-amount disabled"
-                       id="b-calculator__input-amount-receive" value="1000">
-
-                <div class="b-calculator__input-currency">
-                    <select name="targetCurrencyId" class="b-calculator__input-currency-select targetCurrency">
-                        <option value="1">EUR</option>
-                        <option value="2">GBP</option>
-                        <option value="3">USD</option>
-                        <option value="4">PLN</option>
-                        <option value="5">CHF</option>
-                        <option value="6">NOK</option>
-                        <option value="7">SEK</option>
-                        <option value="8">DKK</option>
-                        <option value="9">AUD</option>
-                        <option value="10">CAD</option>
-                        <option value="14">HUF</option>
-                        <option value="15">GEL</option>
-                        <option value="24">HKD</option>
-                        <option value="26">INR</option>
-                        <option value="28">MYR</option>
-                        <option value="30">RON</option>
-                        <option value="31">TRY</option>
-                        <option value="32">NZD</option>
-                        <option value="35">SGD</option>
-                        <option value="40">CZK</option>
-                        <option value="41">BGN</option>
-                        <option value="Other" class="other-cur-option">Other</option>
-                    </select>
-
-                    <div class="b-calculator__input-currency-current js-target-currency-label">EUR</div>
-                </div>
-            </div>
-            <div class="b-calculator__input-container ">
-                <label class="b-calculator__input-label" id="b-calculator__input-user-label"
-                       for="b-calculator__input-user">Repicient's username</label>
-                <input name="targetValue" class="b-calculator__input-amount " id="b-calculator__input-user"
-                       value="">
-            </div>
-            <div id="b-cal" class="b-calculator__input-container ">
-
-                <input class="b-button m-full-width event_calc_make_a_transfer" type="submit" value="Send money">
-            </div>
-            <div class="b-calculator__input-container b-calculator_user_unknown">
-                <input type="checkbox" value="1" name="unknownTarget" id="unknownTarget" class="l-hide"/>
-                <a href="sender2.html">
-                    <label id="receiverUnknown" for="unknownTarget">I don't know the Recipient's TransferWise
-                        username</label>
-                </a>
-            </div>
-
-        </form>
+                </tr>
+            </table>
     </div>
 </div>
 <footer class="b-footer">
@@ -183,8 +146,5 @@
     </div>
 </footer>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script type="text/javascript">
-
-</script>
 </body>
 </html>

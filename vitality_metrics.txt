@@ -1,0 +1,30 @@
+SENDER
+
+view “sender enters the amount of money”
+how many people come o the page and leave without doing anything
+how many people fill out the input fields, but don’t continue with the process
+how many people know the recipients TF account and how many don’t
+when the account name is known - what are the popular currencies, what is the average amount of money that is sent
+when the account name is not known - what are the popular currencies, what is the average amount of money that is sent
+view “transfer money to TF”
+which % of people click on “I have made the transaction”, “cancel” or don’t do anything
+view “transaction code”
+which % of people copy the link, the id, write down the e-mail, write down the sms, do nothing
+
+
+RECIPIENT
+
+view “transaction link is clicked”
+how many people go to the page vs the transactions that are actually made
+how many transactions are completed
+how many people login vs fill out the form
+view “login”
+how many people complete the login
+view “create an account”
+how many people create an account
+
+
+THE WHOLE PROCESS
+
+how much time does it take for the sender and for the recipient to go through the flow (new vs returning) (new vs existing system)
+how many clicks does it take for the sender and for the recipient to go through the flow (new vs returning) (new vs existing system) - min 2 input fields and 2 clicks for sender and no clicks for recipient

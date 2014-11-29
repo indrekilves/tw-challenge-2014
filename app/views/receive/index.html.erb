@@ -1,0 +1,116 @@
+<!doctype HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="b-header js m-hero" data-js="Header" data-js-options="{&quot;navSelector&quot;: &quot;.js-header-nav-list&quot;, &quot;navToggleSelector&quot;: &quot;.js-header-nav-toggle-button&quot;, &quot;drawerSelector&quot;: &quot;.js-drawer&quot;, &quot;sticky&quot;:&quot;true&quot;, &quot;drawerToggleSelector&quot;: &quot;.js-drawer-button&quot;, &quot;drawerCloseSelector&quot;: &quot;.js-drawer-close&quot;, &quot;openVideoSelector&quot;: &quot;.js-drawer-open-video&quot;, &quot;closeVideoSelector&quot;: &quot;.js-drawer-video-close&quot;, &quot;videoContainerSelector&quot;: &quot;.js-drawer-video-container&quot;}">
+  <div class="l-container m-full-height">
+    <h1 class="b-header__logo l-span-4">
+      <a href="/en" class="b-header__logolink"></a>
+    </h1>
+    <nav class="b-header__language-selector l-span-2 l-hide-mobile">
+
+      <a href="#" class="b-header__language-selector-current m-en">&nbsp;</a>
+
+      <ul class="b-header__language-selector-list">
+        <li class="b-header__language-selector-list-item m-gb"><a href="/en">EN</a></li>
+        <li class="b-header__language-selector-list-item m-pl"><a href="/pl">PL</a></li>
+        <li class="b-header__language-selector-list-item m-de"><a href="/de">DE</a></li>
+        <li class="b-header__language-selector-list-item m-es"><a href="/es">ES</a></li>
+        <li class="b-header__language-selector-list-item m-it"><a href="/it">IT</a></li>
+        <li class="b-header__language-selector-list-item m-fr"><a href="/fr">FR</a></li>
+      </ul>
+    </nav>
+    <nav class="b-header__nav l-right">
+      <button class="b-header__nav-toggle l-show-mobile js-header-nav-toggle-button"></button>
+      <ul class="b-header__nav-list js-header-nav-list">
+        <li class="b-header__nav-item l-hide"><a href="#" class="b-header__nav-item-link js-drawer-button">How it works</a></li>
+        <li class="b-header__nav-item l-show-mobile"><a href="#" class="b-header__nav-item-link">Send money</a></li>
+
+        <li class="b-header__nav-item l-hide-sticky">
+          <a href="/register/index" class="b-header__nav-item-link js-header-register">
+            Sign Up
+          </a>
+        </li>
+        <li class="b-header__nav-item l-hide-sticky">
+          <a href="/login/index" class="b-header__nav-item-link js-header-login" onclick="this.blur();">
+            Login
+          </a>
+        </li>
+
+
+        <li class="b-header__nav-item m-dropdown l-hide-sticky">
+          <a href="#" class="b-header__nav-item-link">Help</a>
+          <ul class="b-header__nav-dropdown">
+            <li class="b-header__nav-dropdown-item"><a href="/faq/showOnDesk/supported-currencies" class="b-header__nav-dropdown-item-link">What currencies are supported?</a></li>
+            <li class="b-header__nav-dropdown-item"><a href="/faq/showOnDesk/how-long-does-it-take" class="b-header__nav-dropdown-item-link">How long does my transfer take?</a></li>
+            <li class="b-header__nav-dropdown-item"><a href="/faq/showOnDesk/what-is-transferwise" class="b-header__nav-dropdown-item-link">What is TransferWise?</a></li>
+            <li class="b-header__nav-dropdown-item"><a href="/faq" class="b-header__nav-dropdown-item-link m-highlighted">More answers…</a></li>
+          </ul>
+        </li>
+
+        <li class="b-header__nav-item m-button l-hide-mobile">
+          <button class="b-button m-small m-alternative js-drawer-button">How it works</button>
+        </li>
+
+        <li class="b-header__nav-item m-button l-show-sticky l-hide-mobile">
+          <a href="/transferFlow#/enterpayment?" class="b-button m-small event-header-send-money js-header__send-money">Send money</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div id="content" class="b-page">
+  <div class="b-hero ">
+    <form class="form-horizontal">
+      <div class="form-group b-calculator__input-container ">
+        <label class="b-calculator__input-label" for="b-calculator__input-amount-send">You send</label>
+        <input name="sourceValue" class="b-calculator__input-amount" id="b-calculator__input-amount-send" value="1000">
+        <div class="b-calculator__input-currency">
+          <select name="sourceCurrencyId" class="b-calculator__input-currency-select sourceCurrency"><option value="1">EUR</option><option value="2">GBP</option><option value="3">USD</option><option value="4">PLN</option><option value="5">CHF</option><option value="6">NOK</option><option value="7">SEK</option><option value="8">DKK</option><option value="14">HUF</option><option value="15">GEL</option><option value="30">RON</option><option value="31">TRY</option><option value="40">CZK</option><option value="41">BGN</option><option value="Other" class="other-cur-option">Other</option></select>
+          <div class="b-calculator__input-currency-current js-source-currency-label">GBP</div>
+        </div>
+      </div>
+      <div class="b-calculator__input-container ">
+        <label class="b-calculator__input-label" for="b-calculator__input-amount-receive">They receive</label>
+        <input type="checkbox" value="1" name="isFixTypeTarget" id="isFixTypeTarget" class="l-hide">
+        <input name="targetValue" class="b-calculator__input-amount disabled" id="b-calculator__input-amount-receive" value="1000">
+        <div class="b-calculator__input-currency">
+          <select name="targetCurrencyId" class="b-calculator__input-currency-select targetCurrency"><option value="1">EUR</option><option value="2">GBP</option><option value="3">USD</option><option value="4">PLN</option><option value="5">CHF</option><option value="6">NOK</option><option value="7">SEK</option><option value="8">DKK</option><option value="9">AUD</option><option value="10">CAD</option><option value="14">HUF</option><option value="15">GEL</option><option value="24">HKD</option><option value="26">INR</option><option value="28">MYR</option><option value="30">RON</option><option value="31">TRY</option><option value="32">NZD</option><option value="35">SGD</option><option value="40">CZK</option><option value="41">BGN</option><option value="Other" class="other-cur-option">Other</option></select>
+          <div class="b-calculator__input-currency-current js-target-currency-label">EUR</div>
+        </div>
+      </div>
+      <div class="b-calculator__input-container ">
+        <label class="b-calculator__input-label" for="b-calculator__input-user">They receive</label>
+        <input name="targetValue" class="b-calculator__input-amount " id="b-calculator__input-user" value="1000">
+      </div>
+      <div class="b-calculator__input-container ">
+        <input type="checkbox" value="1" name="unknownTarget" id="unknownTarget" class="l-hide">
+        <label id="receiverUnknown" for="unknownTarget">I don't know the Recipent account</label>
+      </div>
+
+      <input class="b-button m-full-width event_calc_make_a_transfer" type="submit" value="Send money">
+    </form>
+  </div>
+</div>
+<footer class="b-footer">
+  <div class="b-footer__legal">
+    <p>© TransferWise Ltd 2014 &nbsp;
+      <a href="/terms-of-use">Terms of use</a>&nbsp;
+      <a href="/privacy-policy">Privacy policy</a>&nbsp;
+      <a href="/cookie-policy">Cookie policy</a>&nbsp;
+
+
+    </p><p>
+    Transferwise is a registered money service business. Her Majesty's Revenue and Customs certificate number <a href="/mlr" onclick="window.open(this.href); return false;">12591871</a>.
+    <br>
+    We are fully authorised by the UK Financial Conduct Authority (FCA) as a payments institution with reference <a href="http://www.fsa.gov.uk/register/psdFirmRefSearch.do?firmRef=571669" onclick="window.open(this.href);return false;">571669</a>.
+
+  </p>
+  </div>
+</footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

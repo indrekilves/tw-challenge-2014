@@ -7,6 +7,14 @@
     width: 50%;
 }
 
+.b-hero__title {
+    text-align: center !important;
+}
+
+.center {
+    text-align: center !important;
+}
+
 .b-calculator__input-container.b-calculator_user_unknown {
     background: #00c6ff;
     box-shadow: none;
@@ -25,14 +33,16 @@
     padding: 16px 0 16px 16px;
     display: block;
 }
+
 .container {
     font-size: 16px;
 }
+
 th {
     text-align: right
 }
 
-.cancel{
+.cancel {
     text-align: center;
 }
 

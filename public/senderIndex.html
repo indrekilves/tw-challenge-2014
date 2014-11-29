@@ -2,9 +2,6 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <style type="text/css">
-        form-horizontal
-    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -78,7 +75,7 @@
         </nav>
     </div>
 </header>
-<div id="content" class="b-page">
+<div id="content" class="b-page container">
     <div class="b-hero ">
         <form id="sending-form">
             <div class="form-group b-calculator__input-container ">
@@ -144,13 +141,14 @@
                 </div>
             </div>
             <div class="b-calculator__input-container ">
-                <label class="b-calculator__input-label" id="b-calculator__input-user-label" for="b-calculator__input-user">Repicient's username</label>
+                <label class="b-calculator__input-label" id="b-calculator__input-user-label"
+                       for="b-calculator__input-user">Repicient's username</label>
                 <input name="targetValue" class="b-calculator__input-amount " id="b-calculator__input-user"
                        value="">
             </div>
-            <div class="b-calculator__input-container ">
+            <div id="b-cal" class="b-calculator__input-container ">
 
-            <input class="b-button m-full-width event_calc_make_a_transfer" type="submit" value="Send money">
+                <input class="b-button m-full-width event_calc_make_a_transfer" type="submit" value="Send money">
             </div>
             <div class="b-calculator__input-container b-calculator_user_unknown">
                 <input type="checkbox" value="1" name="unknownTarget" id="unknownTarget" class="l-hide"/>
@@ -185,5 +183,8 @@
     </div>
 </footer>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+</script>
 </body>
 </html>

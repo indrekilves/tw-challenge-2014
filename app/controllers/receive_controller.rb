@@ -18,7 +18,7 @@ class ReceiveController < ApplicationController
 
     json ="{ \"sender\": { \"name\": \"Paul\", \"account\": \"ABC123456789\" },
              \"receiver\": { \"name\": \""  + userName + "\", \"account\": \"MADREMIA123\"},
-             \"amount\": 120.7,
+             \"amount\": \""  + sourceValue + "\",
              \"currency\": \"EUR\"}"
     #ActiveSupport::JSON.encode({ team: 'rails', players: '36' })
 

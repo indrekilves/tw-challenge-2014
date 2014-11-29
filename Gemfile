@@ -12,7 +12,8 @@ gem 'rails', '3.2.17'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
+  gem 'bootstrap-sass', '~> 3.2.0'
+  gem 'autoprefixer-rails'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
@@ -35,6 +36,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
 
 group :development, :test do
   gem "database_cleaner", "~> 0.9.1"

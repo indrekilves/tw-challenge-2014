@@ -1,4 +1,6 @@
 TwcApp::Application.routes.draw do
+  get "transaction_link_static/index"
+
   resources :users
 
 

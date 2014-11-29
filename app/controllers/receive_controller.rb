@@ -8,4 +8,9 @@ class ReceiveController < ApplicationController
 
   def login
   end
+
+  def transfer
+
+    render "public/sender2.html"
+  end
 end

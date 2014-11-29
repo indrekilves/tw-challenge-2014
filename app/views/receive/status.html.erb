@@ -1,2 +1,148 @@
-<h1>Receive#status</h1>
-<p>Find me in app/views/receive/status.html.erb</p>
+<!doctype HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="b-header js m-hero" data-js="Header" data-js-options="{&quot;navSelector&quot;: &quot;.js-header-nav-list&quot;, &quot;navToggleSelector&quot;: &quot;.js-header-nav-toggle-button&quot;, &quot;drawerSelector&quot;: &quot;.js-drawer&quot;, &quot;sticky&quot;:&quot;true&quot;, &quot;drawerToggleSelector&quot;: &quot;.js-drawer-button&quot;, &quot;drawerCloseSelector&quot;: &quot;.js-drawer-close&quot;, &quot;openVideoSelector&quot;: &quot;.js-drawer-open-video&quot;, &quot;closeVideoSelector&quot;: &quot;.js-drawer-video-close&quot;, &quot;videoContainerSelector&quot;: &quot;.js-drawer-video-container&quot;}">
+  <div class="l-container m-full-height">
+    <h1 class="b-header__logo l-span-4">
+      <a href="/en" class="b-header__logolink"></a>
+    </h1>
+    <nav class="b-header__language-selector l-span-2 l-hide-mobile">
+
+      <a href="#" class="b-header__language-selector-current m-en">&nbsp;</a>
+
+      <ul class="b-header__language-selector-list">
+        <li class="b-header__language-selector-list-item m-gb"><a href="/en">EN</a></li>
+        <li class="b-header__language-selector-list-item m-pl"><a href="/pl">PL</a></li>
+        <li class="b-header__language-selector-list-item m-de"><a href="/de">DE</a></li>
+        <li class="b-header__language-selector-list-item m-es"><a href="/es">ES</a></li>
+        <li class="b-header__language-selector-list-item m-it"><a href="/it">IT</a></li>
+        <li class="b-header__language-selector-list-item m-fr"><a href="/fr">FR</a></li>
+      </ul>
+    </nav>
+    <nav class="b-header__nav l-right">
+      <button class="b-header__nav-toggle l-show-mobile js-header-nav-toggle-button"></button>
+      <ul class="b-header__nav-list js-header-nav-list">
+        <li class="b-header__nav-item l-hide"><a href="#" class="b-header__nav-item-link js-drawer-button">How it works</a></li>
+        <li class="b-header__nav-item l-show-mobile"><a href="#" class="b-header__nav-item-link">Send money</a></li>
+
+        <li class="b-header__nav-item l-hide-sticky">
+          <a href="/register/index" class="b-header__nav-item-link js-header-register">
+            Sign Up
+          </a>
+        </li>
+        <li class="b-header__nav-item l-hide-sticky">
+          <a href="/login/index" class="b-header__nav-item-link js-header-login" onclick="this.blur();">
+            Login
+          </a>
+        </li>
+
+
+        <li class="b-header__nav-item m-dropdown l-hide-sticky">
+          <a href="#" class="b-header__nav-item-link">Help</a>
+          <ul class="b-header__nav-dropdown">
+            <li class="b-header__nav-dropdown-item"><a href="/faq/showOnDesk/supported-currencies" class="b-header__nav-dropdown-item-link">What currencies are supported?</a></li>
+            <li class="b-header__nav-dropdown-item"><a href="/faq/showOnDesk/how-long-does-it-take" class="b-header__nav-dropdown-item-link">How long does my transfer take?</a></li>
+            <li class="b-header__nav-dropdown-item"><a href="/faq/showOnDesk/what-is-transferwise" class="b-header__nav-dropdown-item-link">What is TransferWise?</a></li>
+            <li class="b-header__nav-dropdown-item"><a href="/faq" class="b-header__nav-dropdown-item-link m-highlighted">More answers…</a></li>
+          </ul>
+        </li>
+
+        <li class="b-header__nav-item m-button l-hide-mobile">
+          <button class="b-button m-small m-alternative js-drawer-button">How it works</button>
+        </li>
+
+        <li class="b-header__nav-item m-button l-show-sticky l-hide-mobile">
+          <a href="/transferFlow#/enterpayment?" class="b-button m-small event-header-send-money js-header__send-money">Send money</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div id="content" class="b-page">
+  <div class="b-hero ">
+    <form class="form-horizontal">
+      <div class="l-container">
+
+        <h2 class="b-hero__title"  style="text-align: center">
+          Your transfer is done!
+        </h2>
+
+        <div class="l-container" style="width: 400px" >
+          <p class="b-benefits__title" style="text-align: center; font: bold">
+            <br>
+            <br>
+            <br>
+            Transfer ID
+            <br>
+            <br>
+          <p class="b-benefits__item-title" style="text-align: center; font: bold">
+            A7187BYGYG88
+          </p>
+          </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="l-container" style="width: 800px" >
+          <p class="b-hero__subtitle" style="text-align: center">
+            We generated a secure transfer ID for you. Please forward this ID to the receipient or send it as e-mail or SMS.
+          </p>
+        </div>
+
+        <div class="l-container" style="width: 400px">
+          <input class="b-input" id="j_username" name="j_username" type="text" placeholder="Receiver's email address" value=""><br><br>
+          <input class="b-input js-password" id="j_password" name="j_password" type="text" placeholder="Receiver's mobile number"><br><br>
+          <button type="button" class="b-button m-large m-full-width" data-toggle="modal" data-target="#myModal">
+            Send transaction ID
+          </button>
+          <input type="submit" name="trylogin" class="b-button m-large m-full-width" value="Login" id="trylogin">
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>-->
+                  <!--<h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
+                </div>
+                <div class="modal-body" style="text-align: center">
+                  Trasnfer ID is sent
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </form>
+  </div>
+</div>
+<footer class="b-footer">
+  <div class="b-footer__legal">
+    <p>© TransferWise Ltd 2014 &nbsp;
+      <a href="/terms-of-use">Terms of use</a>&nbsp;
+      <a href="/privacy-policy">Privacy policy</a>&nbsp;
+      <a href="/cookie-policy">Cookie policy</a>&nbsp;
+
+
+    </p><p>
+    Transferwise is a registered money service business. Her Majesty's Revenue and Customs certificate number <a href="/mlr" onclick="window.open(this.href); return false;">12591871</a>.
+    <br>
+    We are fully authorised by the UK Financial Conduct Authority (FCA) as a payments institution with reference <a href="http://www.fsa.gov.uk/register/psdFirmRefSearch.do?firmRef=571669" onclick="window.open(this.href);return false;">571669</a>.
+
+  </p>
+  </div>
+</footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

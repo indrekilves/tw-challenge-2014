@@ -23,14 +23,14 @@ $(function () {
             btn.attr('disabled', 'disabled');
         }
     });
-    $("#b-cal-send-money").click(function (e) {
+   /* $("#b-cal-send-money").click(function (e) {
         e.preventDefault();
         var amount, currency;
         amount = $('#b-calculator__input-amount-send').val();
         currency = $('#sourceCurrencyId').val();
         app.receiver.name = $("#b-calculator__input-user").val();
         app.sendData(amount, currency);
-    });
+    });*/
 
     app.sendData = function (amount, currency) {
         var data = {};

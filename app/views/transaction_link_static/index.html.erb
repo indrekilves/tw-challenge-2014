@@ -1,3 +1,13 @@
+
+<form>
+  <input type="text" name="email" value="Recepients e-mail"><button class="b-button m-small m-alternative js-drawer-button"><input type="submit"></button>
+</form>
+
+  <br>
+<form>
+  <input type="text" name="lastname" value="Recepients mobile nr"><input type="submit">
+</form>
+
 <!doctype HTML>
 <html>
 <head>
@@ -63,39 +73,35 @@
   </div>
 </header>
 <div id="content" class="b-page">
-
   <div class="b-hero ">
     <form class="form-horizontal">
-      <div class="l-container">
-
-        <h2 class="b-hero__title">
-          Hi there! Paul wants to send you 20$.
-        </h2>
-
-        <p class="b-hero__subtitle">
-          In order to get the money please log in or fill out your bank data so we could send you the money.
-        </p>
-        <div class="l-container" style="width: 400px">
-          <h1 class="b-benefits__title">I'm already a user</h1>
-          <input class="b-input" id="j_username" name="j_username" type="text" placeholder="Your email address" value=""><br><br>
-          <input class="b-input js-password" id="j_password" name="j_password" type="password" placeholder="Your password"><br><br>
-          <input type="submit" name="trylogin" class="b-button m-large m-full-width" value="Login" id="trylogin">
-
+      <div class="form-group b-calculator__input-container ">
+        <label class="b-calculator__input-label" for="b-calculator__input-amount-send">You send</label>
+        <input name="sourceValue" class="b-calculator__input-amount" id="b-calculator__input-amount-send" value="1000">
+        <div class="b-calculator__input-currency">
+          <select name="sourceCurrencyId" class="b-calculator__input-currency-select sourceCurrency"><option value="1">EUR</option><option value="2">GBP</option><option value="3">USD</option><option value="4">PLN</option><option value="5">CHF</option><option value="6">NOK</option><option value="7">SEK</option><option value="8">DKK</option><option value="14">HUF</option><option value="15">GEL</option><option value="30">RON</option><option value="31">TRY</option><option value="40">CZK</option><option value="41">BGN</option><option value="Other" class="other-cur-option">Other</option></select>
+          <div class="b-calculator__input-currency-current js-source-currency-label">GBP</div>
         </div>
-
-        <div class="l-container" style="width: 400px">
-          <br><br>
-          <h1 class="b-benefits__title">I'm not a user</h1>
-          <input class="b-input" id="j_recievername" name="j_recievername" type="text" placeholder="Your Name" value=""><br><br>
-          <input class="b-input js-password" id="j_iban" name="j_iban" type="text" placeholder="IBAN"><br><br>
-          <input class="b-input js-password" id="j_bankCode" name="j_bankCode" type="text" placeholder="Bank code"><br><br>
-
-          <input type="submit" name="getMoney" class="b-button m-large m-full-width" value="Get the money" id="getMoney">
-
+      </div>
+      <div class="b-calculator__input-container ">
+        <label class="b-calculator__input-label" for="b-calculator__input-amount-receive">They receive</label>
+        <input type="checkbox" value="1" name="isFixTypeTarget" id="isFixTypeTarget" class="l-hide">
+        <input name="targetValue" class="b-calculator__input-amount disabled" id="b-calculator__input-amount-receive" value="1000">
+        <div class="b-calculator__input-currency">
+          <select name="targetCurrencyId" class="b-calculator__input-currency-select targetCurrency"><option value="1">EUR</option><option value="2">GBP</option><option value="3">USD</option><option value="4">PLN</option><option value="5">CHF</option><option value="6">NOK</option><option value="7">SEK</option><option value="8">DKK</option><option value="9">AUD</option><option value="10">CAD</option><option value="14">HUF</option><option value="15">GEL</option><option value="24">HKD</option><option value="26">INR</option><option value="28">MYR</option><option value="30">RON</option><option value="31">TRY</option><option value="32">NZD</option><option value="35">SGD</option><option value="40">CZK</option><option value="41">BGN</option><option value="Other" class="other-cur-option">Other</option></select>
+          <div class="b-calculator__input-currency-current js-target-currency-label">EUR</div>
         </div>
-
+      </div>
+      <div class="b-calculator__input-container ">
+        <label class="b-calculator__input-label" for="b-calculator__input-user">They receive</label>
+        <input name="targetValue" class="b-calculator__input-amount " id="b-calculator__input-user" value="1000">
+      </div>
+      <div class="b-calculator__input-container ">
+        <input type="checkbox" value="1" name="unknownTarget" id="unknownTarget" class="l-hide">
+        <label id="receiverUnknown" for="unknownTarget">I don't know the Recipent account</label>
       </div>
 
+      <input class="b-button m-full-width event_calc_make_a_transfer" type="submit" value="Send money">
     </form>
   </div>
 </div>

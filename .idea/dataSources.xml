@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails twc_app: development" uuid="c81f5626-bcfd-408d-ac75-216cab418e04">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:D:\DropBox\challenge\enigmatic-headland-9222\db\development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails twc_app: production" uuid="e6c2b9c6-437c-4b53-9831-6326925bcece">

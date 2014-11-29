@@ -1,0 +1,2 @@
+module TransactionLinkStaticHelper
+end

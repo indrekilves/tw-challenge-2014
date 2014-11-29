@@ -1,4 +1,4 @@
-twc_app
-=======
+tw-challenge-2014
+=================
 
-TransferWiseChallenge
+Base repository for TransferWise Challenge - please fork for each team and make repository public. Sharing is caring!

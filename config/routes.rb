@@ -4,14 +4,17 @@ TwcApp::Application.routes.draw do
 
   resources :reciever_indices
 
-  post '/recieverIndex', to: redirect('/reciever_indices')
-  get '/recieverIndex', to: redirect('/reciever_indices')
+#  post '/recieverIndex', to: redirect('/reciever_indices')
+#  get '/recieverIndex', to: redirect('/reciever_indices')
 
   get "receive/index"
 
   get "receive/status"
 
   get "receive/login"
+
+  post "/sender2", :to => "receive#transfer"
+  post "/recieverIndex", :to => "receive#transferUnknownUser"
 
   resources :users
 

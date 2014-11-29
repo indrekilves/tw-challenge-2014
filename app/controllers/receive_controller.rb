@@ -18,7 +18,7 @@ class ReceiveController < ApplicationController
 
     json ="{ \"sender\": { \"name\": \"Paul\", \"account\": \"ABC123456789\" },
              \"receiver\": { \"name\": \""  + userName + "\", \"account\": \"MADREMIA123\"},
-             \"amount\": 120.7,
+             \"amount\": \""  + sourceValue + "\",
              \"currency\": \"EUR\"}"
     #ActiveSupport::JSON.encode({ team: 'rails', players: '36' })
 
@@ -26,6 +26,7 @@ class ReceiveController < ApplicationController
     testHost = 'localhost:3000/mineperseurl/'
     realHost = 'http://challenge.transferwise.com/'
     fullUrl = realHost + "?teamname=bootstrap&data=" + jsonEsc
+    #render fullUrl
     #fullUrl = Rack::Utils.escape(fullUrl)
 
 

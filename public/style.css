@@ -40,12 +40,12 @@
 .b-button.disabled, .b-button.disabled:hover {
     color: #666666;
     background-color: #dddddd;
-    border-bottom-color:  #aaaaaa;
+    border-bottom-color: #aaaaaa;
 }
 
 .b-calculator_user_unknown a:hover {
     text-decoration: none;
-    border-bottom-color:  #666666;
+    border-bottom-color: #666666;
 }
 
 .container {

@@ -75,9 +75,9 @@
         </nav>
     </div>
 </header>
-<div id="content" class="b-page container">
+<div id="content" class="b-page">
     <div class="b-hero ">
-        <form id="sending-form">
+        <form id="sending-form" class="container">
             <div class="form-group b-calculator__input-container ">
                 <label class="b-calculator__input-label" for="b-calculator__input-amount-send">You send</label>
                 <input name="sourceValue" class="b-calculator__input-amount" id="b-calculator__input-amount-send"
@@ -86,7 +86,7 @@
                 <div class="b-calculator__input-currency">
                     <select name="sourceCurrencyId" class="b-calculator__input-currency-select sourceCurrency">
                         <option value="1">EUR</option>
-                        <option value="2">GBP</option>
+                        <option value="2" selected="selected">GBP</option>
                         <option value="3">USD</option>
                         <option value="4">PLN</option>
                         <option value="5">CHF</option>
@@ -109,12 +109,12 @@
                 <label class="b-calculator__input-label" for="b-calculator__input-amount-receive">They receive</label>
                 <input type="checkbox" value="1" name="isFixTypeTarget" id="isFixTypeTarget" class="l-hide">
                 <input name="targetValue" class="b-calculator__input-amount disabled"
-                       id="b-calculator__input-amount-receive" value="1000">
+                       id="b-calculator__input-amount-receive" value="1,250.63">
 
                 <div class="b-calculator__input-currency">
                     <select name="targetCurrencyId" class="b-calculator__input-currency-select targetCurrency">
-                        <option value="1">EUR</option>
-                        <option value="2">GBP</option>
+                        <option value="1" selected="selected">EUR</option>
+                        <option value="2" >GBP</option>
                         <option value="3">USD</option>
                         <option value="4">PLN</option>
                         <option value="5">CHF</option>
@@ -184,19 +184,6 @@
 </footer>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script type="text/javascript">
-    $(function(){
-        $('#b-calculator__input-user').keyup(function(){
-            var btn = $("#b-cal-send-money");
-            if($(this).val().length){
-                btn.removeClass('disabled');
-                btn.removeAttr('disabled');
-            } else {
-                btn.addClass('disabled');
-                btn.attr('disabled','disabled');
-            }
-        });
-    });
-</script>
+<script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>

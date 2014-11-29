@@ -36,4 +36,24 @@ class ReceiveController < ApplicationController
     #reponse = my_connection.get("teamname=bootstrap&data=" + json)
     render "public/sender2.html"
   end
+
+  def transferUnknownUser
+    json ="{ \"sender\": { \"name\": \"Paul\", \"account\": \"ABC123456789\" },
+             \"receiver\": { \"name\": \"Monica\", \"account\": \"MADREMIA123\"},
+             \"amount\": 120.7,
+             \"currency\": \"EUR\"}"
+
+    jsonEsc = CGI::escape(json)
+    realHost = 'http://challenge.transferwise.com/'
+    fullUrl = realHost + "?teamname=bootstrap&data=" + jsonEsc
+
+    puts "kala"
+    puts "kala"
+    puts "kala"
+    result = Net::HTTP.get(URI.parse(fullUrl))
+    puts result
+    puts "tala"
+    render "public/recieverStatus.html"
+  end
+
 end

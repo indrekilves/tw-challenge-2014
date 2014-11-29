@@ -1,5 +1,6 @@
 class ReceiveController < ApplicationController
   def index
+    render
   end
 
   def status

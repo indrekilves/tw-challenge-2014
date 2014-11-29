@@ -26,36 +26,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="senderIndex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/senderIndex.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="25.0" vertical-offset="2920" max-vertical-offset="4176">
               <caret line="145" column="82" selection-start-line="145" selection-start-column="82" selection-end-line="145" selection-end-column="106" />
+=======
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.055846423" vertical-offset="0" max-vertical-offset="960">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+      <file leaf-file-name="transfers_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/transfers_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1335">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html.old" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html.old">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3021" max-vertical-offset="3705">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="recieverIndex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/recieverIndex.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="11.0" vertical-offset="1512" max-vertical-offset="2720">
               <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+=======
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="60" max-vertical-offset="1260">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/style.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,16 +152,188 @@
                 <element signature="e#401773#402288#1" expanded="true" />
                 <element signature="e#402508#403023#2" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="receive_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/receive_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="sender2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sender2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="3088">
               <caret line="3" column="104" selection-start-line="3" selection-start-column="104" selection-end-line="3" selection-end-column="104" />
+=======
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/receive/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.875" vertical-offset="900" max-vertical-offset="1890">
+              <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="31" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="300">
+              <caret line="12" column="123" selection-start-line="12" selection-start-column="123" selection-end-line="12" selection-end-column="123" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recieverIndex.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/recieverIndex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6687697" vertical-offset="611" max-vertical-offset="1935">
+              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.615385" vertical-offset="156426" max-vertical-offset="195765">
+              <caret line="10452" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13040" selection-end-column="1" />
+              <folding>
+                <element signature="e#67547#68166#2" expanded="true" />
+                <element signature="e#68210#75505#2" expanded="true" />
+                <element signature="e#75617#80692#2" expanded="true" />
+                <element signature="e#80809#81324#2" expanded="true" />
+                <element signature="e#81373#81888#2" expanded="true" />
+                <element signature="e#81937#82696#2" expanded="true" />
+                <element signature="e#82749#84204#2" expanded="true" />
+                <element signature="e#84254#88433#2" expanded="true" />
+                <element signature="e#88486#89297#2" expanded="true" />
+                <element signature="e#89347#90306#2" expanded="true" />
+                <element signature="e#90356#90823#2" expanded="true" />
+                <element signature="e#93241#101780#2" expanded="true" />
+                <element signature="e#101973#109268#2" expanded="true" />
+                <element signature="e#109460#114535#2" expanded="true" />
+                <element signature="e#114721#118180#2" expanded="true" />
+                <element signature="e#123166#124199#2" expanded="true" />
+                <element signature="e#125207#125862#2" expanded="true" />
+                <element signature="e#127445#131604#2" expanded="true" />
+                <element signature="e#131858#135473#2" expanded="true" />
+                <element signature="e#135590#138893#2" expanded="true" />
+                <element signature="e#149271#150206#2" expanded="true" />
+                <element signature="e#155969#156448#2" expanded="true" />
+                <element signature="e#158097#159008#2" expanded="true" />
+                <element signature="e#159073#159716#2" expanded="true" />
+                <element signature="e#159778#160957#2" expanded="true" />
+                <element signature="e#278051#278670#2" expanded="true" />
+                <element signature="e#278714#286009#2" expanded="true" />
+                <element signature="e#286121#291196#2" expanded="true" />
+                <element signature="e#291313#291828#2" expanded="true" />
+                <element signature="e#291877#292392#2" expanded="true" />
+                <element signature="e#292441#293200#2" expanded="true" />
+                <element signature="e#293253#294708#2" expanded="true" />
+                <element signature="e#294758#298937#2" expanded="true" />
+                <element signature="e#298990#299801#2" expanded="true" />
+                <element signature="e#299851#300810#2" expanded="true" />
+                <element signature="e#300860#301327#2" expanded="true" />
+                <element signature="e#303745#312284#2" expanded="true" />
+                <element signature="e#312477#319772#2" expanded="true" />
+                <element signature="e#319964#325039#2" expanded="true" />
+                <element signature="e#325225#328684#2" expanded="true" />
+                <element signature="e#334699#339198#2" expanded="true" />
+                <element signature="e#340901#345400#2" expanded="true" />
+                <element signature="e#348322#348985#2" expanded="true" />
+                <element signature="e#349580#355681#1" expanded="true" />
+                <element signature="e#356755#360914#2" expanded="true" />
+                <element signature="e#369926#374085#2" expanded="true" />
+                <element signature="e#382565#383076#2" expanded="true" />
+                <element signature="e#385758#386421#2" expanded="true" />
+                <element signature="e#394453#394920#2" expanded="true" />
+                <element signature="e#395309#395928#2" expanded="true" />
+                <element signature="e#397627#398660#2" expanded="true" />
+                <element signature="e#401113#401628#1" expanded="true" />
+                <element signature="e#401775#402290#1" expanded="true" />
+                <element signature="e#402510#403025#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="receive.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/receive.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.02" vertical-offset="52604" max-vertical-offset="197280">
+              <caret line="3527" column="16" selection-start-line="3527" selection-start-column="16" selection-end-line="3527" selection-end-column="16" />
+              <folding>
+                <element signature="e#66817#67436#2" expanded="true" />
+                <element signature="e#67478#74773#2" expanded="true" />
+                <element signature="e#74879#79954#2" expanded="true" />
+                <element signature="e#80065#80580#2" expanded="true" />
+                <element signature="e#80627#81142#2" expanded="true" />
+                <element signature="e#81189#81948#2" expanded="true" />
+                <element signature="e#81999#83454#2" expanded="true" />
+                <element signature="e#83502#87681#2" expanded="true" />
+                <element signature="e#87732#88543#2" expanded="true" />
+                <element signature="e#88591#89550#2" expanded="true" />
+                <element signature="e#89598#90065#2" expanded="true" />
+                <element signature="e#92345#100884#2" expanded="true" />
+                <element signature="e#101065#108360#2" expanded="true" />
+                <element signature="e#108540#113615#2" expanded="true" />
+                <element signature="e#113789#117248#2" expanded="true" />
+                <element signature="e#121942#122975#2" expanded="true" />
+                <element signature="e#123911#124566#2" expanded="true" />
+                <element signature="e#126011#130170#2" expanded="true" />
+                <element signature="e#130404#134019#2" expanded="true" />
+                <element signature="e#134124#137427#2" expanded="true" />
+                <element signature="e#147339#148274#2" expanded="true" />
+                <element signature="e#153663#154142#2" expanded="true" />
+                <element signature="e#155681#156592#2" expanded="true" />
+                <element signature="e#156655#157298#2" expanded="true" />
+                <element signature="e#157358#158537#2" expanded="true" />
+                <element signature="e#272533#273152#2" expanded="true" />
+                <element signature="e#273194#280489#2" expanded="true" />
+                <element signature="e#280595#285670#2" expanded="true" />
+                <element signature="e#285781#286296#2" expanded="true" />
+                <element signature="e#286343#286858#2" expanded="true" />
+                <element signature="e#286905#287664#2" expanded="true" />
+                <element signature="e#287715#289170#2" expanded="true" />
+                <element signature="e#289218#293397#2" expanded="true" />
+                <element signature="e#293448#294259#2" expanded="true" />
+                <element signature="e#294307#295266#2" expanded="true" />
+                <element signature="e#295314#295781#2" expanded="true" />
+                <element signature="e#298061#306600#2" expanded="true" />
+                <element signature="e#306781#314076#2" expanded="true" />
+                <element signature="e#314256#319331#2" expanded="true" />
+                <element signature="e#319505#322964#2" expanded="true" />
+                <element signature="e#328609#333108#2" expanded="true" />
+                <element signature="e#334687#339186#2" expanded="true" />
+                <element signature="e#341920#342583#2" expanded="true" />
+                <element signature="e#343144#349245#1" expanded="true" />
+                <element signature="e#350253#354412#2" expanded="true" />
+                <element signature="e#362948#367107#2" expanded="true" />
+                <element signature="e#375139#375650#2" expanded="true" />
+                <element signature="e#378158#378821#2" expanded="true" />
+                <element signature="e#386403#386870#2" expanded="true" />
+                <element signature="e#387239#387858#2" expanded="true" />
+                <element signature="e#389473#390506#2" expanded="true" />
+                <element signature="e#392831#393346#1" expanded="true" />
+                <element signature="e#393485#394000#1" expanded="true" />
+                <element signature="e#394204#394719#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,11 +348,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/public/recieverIndex.html" />
         <option value="$PROJECT_DIR$/public/sender2.html" />
         <option value="$PROJECT_DIR$/public/style.css" />
         <option value="$PROJECT_DIR$/public/senderIndex.html" />
         <option value="$PROJECT_DIR$/public/scripts.js" />
+=======
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/log/development.log" />
+        <option value="$PROJECT_DIR$/db/migrate/20141129121137_create_transfers.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/views/receive/index.html.erb" />
+        <option value="$PROJECT_DIR$/public/recieverStatus.html" />
+        <option value="$PROJECT_DIR$/public/vitality_metrics.txt" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/receive.css.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/receive_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/public/recieverIndex.html" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
       </list>
     </option>
   </component>
@@ -154,9 +381,16 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="477" />
     <option name="width" value="889" />
     <option name="height" value="728" />
+=======
+    <option name="x" value="1280" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -198,7 +432,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="tw-challenge-2014" />
+=======
+              <option name="myItemId" value="twc_app" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,7 +446,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="tw-challenge-2014" />
+=======
+              <option name="myItemId" value="twc_app" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -222,13 +464,124 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="tw-challenge-2014" />
+=======
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twc_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
           </PATH>
         </subPane>
       </pane>
@@ -239,10 +592,14 @@
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DropBox\challenge\enigmatic-headland-9222\public" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -253,7 +610,40 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+=======
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
       <method />
     </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
@@ -263,7 +653,36 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+=======
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
       <method />
     </configuration>
     <list size="0" />
@@ -279,6 +698,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="477" y="0" width="889" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -302,6 +722,30 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23096447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26841575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2284345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23096447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32851985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -347,6 +791,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/db/migrate/20141129121137_create_transfers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="320">
@@ -371,6 +816,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
@@ -389,6 +836,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="465">
           <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <marker date="1417211632000" expanded="true" signature="-1:-1" placeholder="production:" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -410,6 +860,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="330">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -417,6 +868,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
         </state>
       </provider>
     </entry>
@@ -438,6 +895,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="465">
           <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <marker date="1417211632000" expanded="true" signature="-1:-1" placeholder="production:" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -459,6 +919,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="345">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -466,6 +927,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -483,10 +945,21 @@
         </state>
       </provider>
     </entry>
+=======
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
           <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <marker date="1417211632000" expanded="true" signature="-1:-1" placeholder="production:" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -501,6 +974,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="330">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -508,6 +982,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="330">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
         </state>
       </provider>
     </entry>
@@ -515,6 +995,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="855">
           <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+<<<<<<< HEAD
+=======
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/development.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1538461" vertical-offset="13335" max-vertical-offset="19590">
+          <caret line="891" column="0" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="9" />
+          <folding />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
         </state>
       </provider>
     </entry>
@@ -526,39 +1018,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20141129121137_create_transfers.rb">
+    <entry file="file://$PROJECT_DIR$/vitality_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.5289256" vertical-offset="0" max-vertical-offset="363">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/models/transfer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/public/recieverStatus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6538463" vertical-offset="654" max-vertical-offset="1620">
+          <caret line="73" column="73" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/senderIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="2940">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/sender2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="3088">
           <caret line="3" column="104" selection-start-line="3" selection-start-column="104" selection-end-line="3" selection-end-column="104" />
+=======
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="300">
+          <caret line="12" column="123" selection-start-line="12" selection-start-column="123" selection-end-line="12" selection-end-column="123" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/recieverIndex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="11.0" vertical-offset="1512" max-vertical-offset="2720">
           <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+=======
+    <entry file="file://$PROJECT_DIR$/public/index.html.old">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3021" max-vertical-offset="3705">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/style.css">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="231248">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
@@ -618,24 +1145,201 @@
             <element signature="e#401773#402288#1" expanded="true" />
             <element signature="e#402508#403023#2" expanded="true" />
           </folding>
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.615385" vertical-offset="156426" max-vertical-offset="195765">
+          <caret line="10452" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13040" selection-end-column="1" />
+          <folding>
+            <element signature="e#67547#68166#2" expanded="true" />
+            <element signature="e#68210#75505#2" expanded="true" />
+            <element signature="e#75617#80692#2" expanded="true" />
+            <element signature="e#80809#81324#2" expanded="true" />
+            <element signature="e#81373#81888#2" expanded="true" />
+            <element signature="e#81937#82696#2" expanded="true" />
+            <element signature="e#82749#84204#2" expanded="true" />
+            <element signature="e#84254#88433#2" expanded="true" />
+            <element signature="e#88486#89297#2" expanded="true" />
+            <element signature="e#89347#90306#2" expanded="true" />
+            <element signature="e#90356#90823#2" expanded="true" />
+            <element signature="e#93241#101780#2" expanded="true" />
+            <element signature="e#101973#109268#2" expanded="true" />
+            <element signature="e#109460#114535#2" expanded="true" />
+            <element signature="e#114721#118180#2" expanded="true" />
+            <element signature="e#123166#124199#2" expanded="true" />
+            <element signature="e#125207#125862#2" expanded="true" />
+            <element signature="e#127445#131604#2" expanded="true" />
+            <element signature="e#131858#135473#2" expanded="true" />
+            <element signature="e#135590#138893#2" expanded="true" />
+            <element signature="e#149271#150206#2" expanded="true" />
+            <element signature="e#155969#156448#2" expanded="true" />
+            <element signature="e#158097#159008#2" expanded="true" />
+            <element signature="e#159073#159716#2" expanded="true" />
+            <element signature="e#159778#160957#2" expanded="true" />
+            <element signature="e#278051#278670#2" expanded="true" />
+            <element signature="e#278714#286009#2" expanded="true" />
+            <element signature="e#286121#291196#2" expanded="true" />
+            <element signature="e#291313#291828#2" expanded="true" />
+            <element signature="e#291877#292392#2" expanded="true" />
+            <element signature="e#292441#293200#2" expanded="true" />
+            <element signature="e#293253#294708#2" expanded="true" />
+            <element signature="e#294758#298937#2" expanded="true" />
+            <element signature="e#298990#299801#2" expanded="true" />
+            <element signature="e#299851#300810#2" expanded="true" />
+            <element signature="e#300860#301327#2" expanded="true" />
+            <element signature="e#303745#312284#2" expanded="true" />
+            <element signature="e#312477#319772#2" expanded="true" />
+            <element signature="e#319964#325039#2" expanded="true" />
+            <element signature="e#325225#328684#2" expanded="true" />
+            <element signature="e#334699#339198#2" expanded="true" />
+            <element signature="e#340901#345400#2" expanded="true" />
+            <element signature="e#348322#348985#2" expanded="true" />
+            <element signature="e#349580#355681#1" expanded="true" />
+            <element signature="e#356755#360914#2" expanded="true" />
+            <element signature="e#369926#374085#2" expanded="true" />
+            <element signature="e#382565#383076#2" expanded="true" />
+            <element signature="e#385758#386421#2" expanded="true" />
+            <element signature="e#394453#394920#2" expanded="true" />
+            <element signature="e#395309#395928#2" expanded="true" />
+            <element signature="e#397627#398660#2" expanded="true" />
+            <element signature="e#401113#401628#1" expanded="true" />
+            <element signature="e#401775#402290#1" expanded="true" />
+            <element signature="e#402510#403025#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/senderIndex.html">
+    <entry file="file://$PROJECT_DIR$/app/views/receive/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="25.0" vertical-offset="2920" max-vertical-offset="4176">
-          <caret line="145" column="82" selection-start-line="145" selection-start-column="82" selection-end-line="145" selection-end-column="106" />
+        <state vertical-scroll-proportion="-11.875" vertical-offset="900" max-vertical-offset="1890">
+          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/receive.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.02" vertical-offset="52604" max-vertical-offset="197280">
+          <caret line="3527" column="16" selection-start-line="3527" selection-start-column="16" selection-end-line="3527" selection-end-column="16" />
+          <folding>
+            <element signature="e#66817#67436#2" expanded="true" />
+            <element signature="e#67478#74773#2" expanded="true" />
+            <element signature="e#74879#79954#2" expanded="true" />
+            <element signature="e#80065#80580#2" expanded="true" />
+            <element signature="e#80627#81142#2" expanded="true" />
+            <element signature="e#81189#81948#2" expanded="true" />
+            <element signature="e#81999#83454#2" expanded="true" />
+            <element signature="e#83502#87681#2" expanded="true" />
+            <element signature="e#87732#88543#2" expanded="true" />
+            <element signature="e#88591#89550#2" expanded="true" />
+            <element signature="e#89598#90065#2" expanded="true" />
+            <element signature="e#92345#100884#2" expanded="true" />
+            <element signature="e#101065#108360#2" expanded="true" />
+            <element signature="e#108540#113615#2" expanded="true" />
+            <element signature="e#113789#117248#2" expanded="true" />
+            <element signature="e#121942#122975#2" expanded="true" />
+            <element signature="e#123911#124566#2" expanded="true" />
+            <element signature="e#126011#130170#2" expanded="true" />
+            <element signature="e#130404#134019#2" expanded="true" />
+            <element signature="e#134124#137427#2" expanded="true" />
+            <element signature="e#147339#148274#2" expanded="true" />
+            <element signature="e#153663#154142#2" expanded="true" />
+            <element signature="e#155681#156592#2" expanded="true" />
+            <element signature="e#156655#157298#2" expanded="true" />
+            <element signature="e#157358#158537#2" expanded="true" />
+            <element signature="e#272533#273152#2" expanded="true" />
+            <element signature="e#273194#280489#2" expanded="true" />
+            <element signature="e#280595#285670#2" expanded="true" />
+            <element signature="e#285781#286296#2" expanded="true" />
+            <element signature="e#286343#286858#2" expanded="true" />
+            <element signature="e#286905#287664#2" expanded="true" />
+            <element signature="e#287715#289170#2" expanded="true" />
+            <element signature="e#289218#293397#2" expanded="true" />
+            <element signature="e#293448#294259#2" expanded="true" />
+            <element signature="e#294307#295266#2" expanded="true" />
+            <element signature="e#295314#295781#2" expanded="true" />
+            <element signature="e#298061#306600#2" expanded="true" />
+            <element signature="e#306781#314076#2" expanded="true" />
+            <element signature="e#314256#319331#2" expanded="true" />
+            <element signature="e#319505#322964#2" expanded="true" />
+            <element signature="e#328609#333108#2" expanded="true" />
+            <element signature="e#334687#339186#2" expanded="true" />
+            <element signature="e#341920#342583#2" expanded="true" />
+            <element signature="e#343144#349245#1" expanded="true" />
+            <element signature="e#350253#354412#2" expanded="true" />
+            <element signature="e#362948#367107#2" expanded="true" />
+            <element signature="e#375139#375650#2" expanded="true" />
+            <element signature="e#378158#378821#2" expanded="true" />
+            <element signature="e#386403#386870#2" expanded="true" />
+            <element signature="e#387239#387858#2" expanded="true" />
+            <element signature="e#389473#390506#2" expanded="true" />
+            <element signature="e#392831#393346#1" expanded="true" />
+            <element signature="e#393485#394000#1" expanded="true" />
+            <element signature="e#394204#394719#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/receive_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="60" max-vertical-offset="1260">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="25.0" vertical-offset="2920" max-vertical-offset="4176">
+          <caret line="145" column="82" selection-start-line="145" selection-start-column="82" selection-end-line="145" selection-end-column="106" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.055846423" vertical-offset="0" max-vertical-offset="960">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/controllers/transfers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1335">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/public/recieverIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6687697" vertical-offset="611" max-vertical-offset="1935">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 1d8151282d7b3d6131a68116454043605d9869f3
   </component>
 </project>

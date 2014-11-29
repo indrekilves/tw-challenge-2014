@@ -1,0 +1,37 @@
+<%= form_for(@reciever_index) do |f| %>
+  <% if @reciever_index.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@reciever_index.errors.count, "error") %> prohibited this reciever_index from being saved:</h2>
+
+      <ul>
+      <% @reciever_index.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :username %><br />
+    <%= f.text_field :username %>
+  </div>
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.text_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :recievername %><br />
+    <%= f.text_field :recievername %>
+  </div>
+  <div class="field">
+    <%= f.label :iban %><br />
+    <%= f.text_field :iban %>
+  </div>
+  <div class="field">
+    <%= f.label :bankCode %><br />
+    <%= f.text_field :bankCode %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

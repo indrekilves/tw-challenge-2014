@@ -11,17 +11,27 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141129124555) do
+ActiveRecord::Schema.define(:version => 20141129160101) do
+
+  create_table "reciever_indices", :force => true do |t|
+    t.string   "username"
+    t.string   "password"
+    t.string   "recievername"
+    t.string   "iban"
+    t.string   "bankCode"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
 
   create_table "transfers", :force => true do |t|
-    t.float    "amount"
+    t.string   "amount"
     t.string   "currency"
     t.string   "uniqueKey"
     t.string   "status"
-    t.integer  "sender_id"
-    t.integer  "receiver_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string   "sender"
+    t.string   "receiver"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "users", :force => true do |t|

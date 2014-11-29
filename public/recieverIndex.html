@@ -63,23 +63,24 @@
 		</nav>
 	</div>
 </header>
-		<div id="content" class="b-page container">
+		<div id="content" class="b-page">
 
 			<div class="b-hero ">
-                <form class="form-horizontal">
-                    <div class="l-container">
+                <form class="form-horizontal" action="https://enigmatic-headland-9222.herokuapp.com/recieverStatus.html">
+                    <div class="l-container"  style="text-align: center">
 
                         <h2 class="b-hero__title">
                             Hi there! Paul wants to send you $20.
                         </h2>
-
-                        <p class="b-hero__subtitle">
-                            In order to get the money please log in or fill out your bank data so we could send you the money.
-                        </p>
+                        <div class="l-container" style="width: 800px" >
+                            <p class="b-hero__subtitle" style="text-align: center">
+                                In order to get the money please log in or fill out your bank data so we could send you the money.
+                            </p>
+                        </div>
                         <div class="l-container" style="width: 400px">
                             <h1 class="b-benefits__title">I'm already a user</h1>
-                            <input class="b-input" id="j_username" name="j_username" type="text" placeholder="Your email address" value=""><br><br>
-                            <input class="b-input js-password" id="j_password" name="j_password" type="password" placeholder="Your password"><br><br>
+                            <input class="b-input" id="username" name="username" type="text" placeholder="Your email address" value=""><br><br>
+                            <input class="b-input js-password" id="password" name="password" type="password" placeholder="Your password"><br><br>
                             <input type="submit" name="trylogin" class="b-button m-large m-full-width" value="Login" id="trylogin">
 
                         </div>
@@ -87,9 +88,9 @@
                         <div class="l-container" style="width: 400px">
                             <br><br>
                             <h1 class="b-benefits__title">I'm not a user</h1>
-                            <input class="b-input" id="j_recievername" name="j_recievername" type="text" placeholder="Your Name" value=""><br><br>
-                            <input class="b-input js-password" id="j_iban" name="j_iban" type="text" placeholder="IBAN"><br><br>
-                            <input class="b-input js-password" id="j_bankCode" name="j_bankCode" type="text" placeholder="Bank code"><br><br>
+                            <input class="b-input" id="recievername" name="recievername" type="text" placeholder="Your Name" value=""><br><br>
+                            <input class="b-input js-password" id="iban" name="iban" type="text" placeholder="IBAN"><br><br>
+                            <input class="b-input js-password" id="bankCode" name="bankCode" type="text" placeholder="Bank code"><br><br>
 
                             <input type="submit" name="getMoney" class="b-button m-large m-full-width" value="Get the money" id="getMoney">
 

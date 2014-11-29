@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Username:</b>
+  <%= @reciever_index.username %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%= @reciever_index.password %>
+</p>
+
+<p>
+  <b>Recievername:</b>
+  <%= @reciever_index.recievername %>
+</p>
+
+<p>
+  <b>Iban:</b>
+  <%= @reciever_index.iban %>
+</p>
+
+<p>
+  <b>Bankcode:</b>
+  <%= @reciever_index.bankCode %>
+</p>
+
+
+<%= link_to 'Edit', edit_reciever_index_path(@reciever_index) %> |
+<%= link_to 'Back', reciever_indices_path %>

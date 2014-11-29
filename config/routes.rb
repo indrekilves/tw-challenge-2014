@@ -1,4 +1,10 @@
 TwcApp::Application.routes.draw do
+  get "receive/index"
+
+  get "receive/status"
+
+  get "receive/login"
+
   resources :users
 
 

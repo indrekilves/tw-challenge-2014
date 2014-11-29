@@ -50,7 +50,9 @@ class ReceiveController < ApplicationController
     puts "kala"
     puts "kala"
     puts "kala"
-    #result = Net::HTTP.get(URI.parse(fullUrl))
+    result = Net::HTTP.get(URI.parse(fullUrl))
+    puts result
+    puts "tala"
     render "public/recieverStatus.html"
   end
 

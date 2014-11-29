@@ -14,6 +14,7 @@ TwcApp::Application.routes.draw do
   get "receive/login"
 
   post "/sender2", :to => "receive#transfer"
+  post "/recieverIndex", :to => "receive#transferUnknownUser"
 
   resources :users
 
